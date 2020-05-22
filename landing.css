@@ -48,7 +48,8 @@ Component Styles
  */
 
 #hero-header-container{
-    background-color: #F8BAC7;
+    /*background-color: #F8BAC7; - 'real color'*/
+    background-color: #EEBDC7; /* - hacked color until we can get a background fix */
     background-image: url("assets/img/hero-background.png");
     background-repeat: no-repeat;
     background-position-x: center;
