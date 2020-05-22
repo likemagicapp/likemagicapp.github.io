@@ -1,2 +1,3 @@
 - Tweaking hero font sizing
 - Added further form validation
+- Fixing second feature screenshot margin
