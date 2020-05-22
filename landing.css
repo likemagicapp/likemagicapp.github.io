@@ -1,0 +1,140 @@
+/*
+Pink - #F8BAC7
+Blue - #9ED9F7
+Gray Green - #E0E2DB
+Yellow - #F3C76E
+Text Gray - #888888
+ */
+
+/*
+Style Overrides
+ */
+
+@font-face {
+    font-family: "Apercu";
+    src: url("assets/fonts/apercu-pro/apercu-regular-pro.ttf");
+
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+    font-family: "Apercu", sans-serif;
+}
+
+input.form-control {
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+button.btn{
+    border-radius: 0;
+}
+
+.secondary-text {
+    color: #888888;
+}
+
+.btn-primary {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+/*
+Component Styles
+ */
+
+#hero-header-container{
+    background-color: #F8BAC7;
+}
+
+#hero-header {
+    text-align: center;
+    background-image: url("assets/img/hero-banana.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    padding-bottom: 300px;
+}
+
+#hero-header h1{
+    margin-top: 30px;
+    font-size: 82px;
+    font-weight: bold;
+}
+
+#hero-email-form{
+    margin-top:40px;
+}
+
+#initial-value-prop {
+    padding: 100px 0 100px 0;
+}
+
+#initial-value-prop  .value-prop {
+    padding-bottom: 100px;
+}
+
+#initial-value-prop-cta-container {
+    padding-bottom: 20px;
+}
+
+.check-icon {
+    padding-top: 5px;
+    width: 40px;
+    height: 100%;
+    float: left;
+}
+
+h3.feature {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+img.feature-icon{
+    margin-bottom: 20px;
+}
+
+#feature-1-screenshot {
+    margin-bottom: -200px;
+}
+
+#feature-1-description {
+    margin-top: 200px;
+}
+
+#feature-2-container{
+    padding-top: 400px;
+    background-color: #E0E2DB;
+    height: 1377px;
+    align-content: center;
+}
+
+#feature-2-description {
+    margin-top: 200px;
+}
+
+#feature-3-screenshot {
+    margin-top:-200px;
+}
+
+#feature-3{
+    padding-bottom: 200px;
+}
+
+#feature-3-description {
+    margin-top: 40px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  /* background-color: #f5f5f5; */
+}
