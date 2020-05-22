@@ -1,1 +1,2 @@
 - Tweaking hero font sizing
+- Added further form validation
