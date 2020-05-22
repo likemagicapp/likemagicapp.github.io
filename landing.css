@@ -49,15 +49,15 @@ Component Styles
 
 #hero-header-container{
     background-color: #F8BAC7;
+    background-image: url("assets/img/hero-background.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
 }
 
 #hero-header {
     text-align: center;
-    background-image: url("assets/img/hero-banana.png");
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
-    padding-bottom: 300px;
+    min-height: 700px;
 }
 
 #hero-header h1{
