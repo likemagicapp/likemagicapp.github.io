@@ -82,8 +82,12 @@ Component Styles
     margin-top:40px;
 }
 
+#hero-email-form > input {
+    text-align:center;
+}
+
 #initial-value-prop {
-    padding: 100px 0 100px 0;
+    padding: 100px 0 50px 0;
 }
 
 #initial-value-prop  .value-prop {
